@@ -45,7 +45,7 @@
 
 #include "eCosStd.h"
 
-#define SER_FILTER_VER "$Id: eCosTestMonitorFilter.cpp,v 1.1 2000/03/20 15:35:31 jskov Exp $"
+#define SER_FILTER_VER "$Id: eCosTestMonitorFilter.cpp,v 1.2 2000/04/11 17:16:03 sdf Exp $"
 #include "eCosTestMonitorFilter.h"
 
 CeCosTestMonitorFilter::CeCosTestMonitorFilter():
@@ -138,8 +138,8 @@ CeCosTestMonitorFilter::PrintHex(const unsigned char* d1, int len, data_origin_t
 bool CALLBACK
 SerialMonitorFunction(void*& pBuf,
                       unsigned int& nRead,
-                      CeCosTestSerial& serial,
-                      CeCosTestSocket& socket,
+                      CeCosSerial& serial,
+                      CeCosSocket& socket,
                       void* pParem)
 {
     CeCosTestMonitorFilter* p = (CeCosTestMonitorFilter*) pParem;
