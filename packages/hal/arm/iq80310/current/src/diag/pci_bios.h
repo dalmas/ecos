@@ -44,11 +44,6 @@
 /*                                                                          */
 /* Use:         mon960                                                      */
 /*                                                                          */
-/* $Source: /home/cvs/ecc/ecc/hal/arm/iq80310/current/src/diag/pci_bios.h,v $      */
-/* $Revision: 1.2 $                                                        */
-/* Last $Author: msalter $                                                  */
-/* $Date: 2001/01/31 21:31:49 $                                             */
-/*                                                                          */
 /* Purpose:  PCI BIOS Routines                                              */
 /*                                                                          */
 /* Remarks:  Conforming to the Revision 2.1 PCI BIOS Specfication           */
